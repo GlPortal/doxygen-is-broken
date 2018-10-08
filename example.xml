@@ -3,7 +3,7 @@
   <compounddef id="classradix_1_1ArgumentsParser" kind="class" language="C++" prot="public">
     <compoundname>radix::ArgumentsParser</compoundname>
     <includes refid="ArgumentsParser_8hpp" local="no">/home/henry/system/projects/glportal/environment/repositories/glPortal/external/RadixEngine/include/radix/env/ArgumentsParser.hpp</includes>
-      <sectiondef kind="private-static-attrib">
+    <sectiondef kind="private-static-attrib">
       <memberdef kind="variable" id="classradix_1_1ArgumentsParser_1a4066e5ac6b7accf75cebd20ddd3da5ba" prot="private" static="yes" mutable="no">
         <type>std::string</type>
         <definition>std::string radix::ArgumentsParser::mapName</definition>
