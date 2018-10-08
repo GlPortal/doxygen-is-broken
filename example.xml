@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classradix_1_1ArgumentsParser" kind="class" language="C++" prot="public">
+    <compoundname>radix::ArgumentsParser</compoundname>
+    <includes refid="ArgumentsParser_8hpp" local="no">/home/henry/system/projects/glportal/environment/repositories/glPortal/external/RadixEngine/include/radix/env/ArgumentsParser.hpp</includes>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classradix_1_1ArgumentsParser_1a4066e5ac6b7accf75cebd20ddd3da5ba" prot="private" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string radix::ArgumentsParser::mapName</definition>
+        <argsstring></argsstring>
+        <name>mapName</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" line="11" column="1" bodyfile="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classradix_1_1ArgumentsParser_1a21a4445250251d015f99a91ea2a55703" prot="private" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string radix::ArgumentsParser::mapPath</definition>
+        <argsstring></argsstring>
+        <name>mapPath</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" line="12" column="1" bodyfile="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classradix_1_1ArgumentsParser_1a28e598d5253e014a9d753ac650e01eef" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool radix::ArgumentsParser::showCursor</definition>
+        <argsstring></argsstring>
+        <name>showCursor</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" line="13" column="1" bodyfile="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classradix_1_1ArgumentsParser_1a81dc953675007f2d623bcd3c38e29817" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool radix::ArgumentsParser::ignoreGlVersion</definition>
+        <argsstring></argsstring>
+        <name>ignoreGlVersion</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" line="14" column="1" bodyfile="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classradix_1_1ArgumentsParser_1a3c2486c92c15178169bc0f5441e9d982" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool radix::ArgumentsParser::debugMode</definition>
+        <argsstring></argsstring>
+        <name>debugMode</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" line="15" column="1" bodyfile="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classradix_1_1ArgumentsParser_1a3352024370f57c764737e5db3815e9c9" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool radix::ArgumentsParser::consoleEnabled</definition>
+        <argsstring></argsstring>
+        <name>consoleEnabled</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" line="16" column="1" bodyfile="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classradix_1_1ArgumentsParser_1adec193bfc806e67be4c1a8b939d17368" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool radix::ArgumentsParser::profilerEnabled</definition>
+        <argsstring></argsstring>
+        <name>profilerEnabled</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" line="17" column="1" bodyfile="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classradix_1_1ArgumentsParser_1a993ae8aee7ad2e3d80e2e774b57e5073" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int radix::ArgumentsParser::screen</definition>
+        <argsstring></argsstring>
+        <name>screen</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" line="18" column="1" bodyfile="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classradix_1_1ArgumentsParser_1ac499d195a28764e754654e91528c8229" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int radix::ArgumentsParser::NO_ARGUMENT</definition>
+        <argsstring></argsstring>
+        <name>NO_ARGUMENT</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" line="19" column="1" bodyfile="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classradix_1_1ArgumentsParser_1a4795e7afe18e10d99b4e08942b3eeb1d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void radix::ArgumentsParser::showUsage</definition>
+        <argsstring>(char **argv)</argsstring>
+        <name>showUsage</name>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" line="21" column="1" bodyfile="external/RadixEngine/source/env/ArgumentsParser.cpp" bodystart="24" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classradix_1_1ArgumentsParser_1a12891b7a1123d6860133d928ddb49edf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void radix::ArgumentsParser::setEnvironmentFromArgs</definition>
+        <argsstring>(const int argc, char **argv)</argsstring>
+        <name>setEnvironmentFromArgs</name>
+        <param>
+          <type>const int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" line="22" column="1" bodyfile="external/RadixEngine/source/env/ArgumentsParser.cpp" bodystart="41" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classradix_1_1ArgumentsParser_1a87c924d80ea8ac92a9c4e1f82fb3fa38" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void radix::ArgumentsParser::populateConfig</definition>
+        <argsstring>(radix::Config &amp;config)</argsstring>
+        <name>populateConfig</name>
+        <param>
+          <type><ref refid="classradix_1_1Config" kindref="compound">radix::Config</ref> &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" line="23" column="1" bodyfile="external/RadixEngine/source/env/ArgumentsParser.cpp" bodystart="110" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classradix_1_1ArgumentsParser_1a378b3723848dc58c7adf356fc19e3368" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void radix::ArgumentsParser::showVersion</definition>
+        <argsstring>()</argsstring>
+        <name>showVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" line="24" column="1" bodyfile="external/RadixEngine/source/env/ArgumentsParser.cpp" bodystart="145" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" line="9" column="1" bodyfile="external/RadixEngine/include/radix/env/ArgumentsParser.hpp" bodystart="9" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classradix_1_1ArgumentsParser_1a3352024370f57c764737e5db3815e9c9" prot="private" virt="non-virtual"><scope>radix::ArgumentsParser</scope><name>consoleEnabled</name></member>
+      <member refid="classradix_1_1ArgumentsParser_1a3c2486c92c15178169bc0f5441e9d982" prot="private" virt="non-virtual"><scope>radix::ArgumentsParser</scope><name>debugMode</name></member>
+      <member refid="classradix_1_1ArgumentsParser_1a81dc953675007f2d623bcd3c38e29817" prot="private" virt="non-virtual"><scope>radix::ArgumentsParser</scope><name>ignoreGlVersion</name></member>
+      <member refid="classradix_1_1ArgumentsParser_1a4066e5ac6b7accf75cebd20ddd3da5ba" prot="private" virt="non-virtual"><scope>radix::ArgumentsParser</scope><name>mapName</name></member>
+      <member refid="classradix_1_1ArgumentsParser_1a21a4445250251d015f99a91ea2a55703" prot="private" virt="non-virtual"><scope>radix::ArgumentsParser</scope><name>mapPath</name></member>
+      <member refid="classradix_1_1ArgumentsParser_1ac499d195a28764e754654e91528c8229" prot="private" virt="non-virtual"><scope>radix::ArgumentsParser</scope><name>NO_ARGUMENT</name></member>
+      <member refid="classradix_1_1ArgumentsParser_1a87c924d80ea8ac92a9c4e1f82fb3fa38" prot="public" virt="non-virtual"><scope>radix::ArgumentsParser</scope><name>populateConfig</name></member>
+      <member refid="classradix_1_1ArgumentsParser_1adec193bfc806e67be4c1a8b939d17368" prot="private" virt="non-virtual"><scope>radix::ArgumentsParser</scope><name>profilerEnabled</name></member>
+      <member refid="classradix_1_1ArgumentsParser_1a993ae8aee7ad2e3d80e2e774b57e5073" prot="private" virt="non-virtual"><scope>radix::ArgumentsParser</scope><name>screen</name></member>
+      <member refid="classradix_1_1ArgumentsParser_1a12891b7a1123d6860133d928ddb49edf" prot="public" virt="non-virtual"><scope>radix::ArgumentsParser</scope><name>setEnvironmentFromArgs</name></member>
+      <member refid="classradix_1_1ArgumentsParser_1a28e598d5253e014a9d753ac650e01eef" prot="private" virt="non-virtual"><scope>radix::ArgumentsParser</scope><name>showCursor</name></member>
+      <member refid="classradix_1_1ArgumentsParser_1a4795e7afe18e10d99b4e08942b3eeb1d" prot="public" virt="non-virtual"><scope>radix::ArgumentsParser</scope><name>showUsage</name></member>
+      <member refid="classradix_1_1ArgumentsParser_1a378b3723848dc58c7adf356fc19e3368" prot="public" virt="non-virtual"><scope>radix::ArgumentsParser</scope><name>showVersion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
