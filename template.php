@@ -15,15 +15,21 @@ foreach ($definitions->sectiondef as $section) {
     } else if ($section['kind'] == 'public-static-func') {
         echo '<h2>Public Members</h2>', PHP_EOL;
     }
-    echo '<p>', PHP_EOL;
-    echo '<ul>', PHP_EOL;
+
     foreach ($section->memberdef as $member) {
-        echo '<li>', PHP_EOL;
-        echo $member->type, ' ', $member->name, PHP_EOL;
-        echo '</li>', PHP_EOL;
+        echo '<h3>';
+        echo $member->type, ' ', $member->name;
+        echo '(';
+        foreach ($member->param as $key => $param) {
+            if($key > 0) {
+                echo ', ';
+            }
+            echo $param->type , ' ' , $param->declname;
+        }
+        echo ')';
+        echo '</h3>', PHP_EOL;
     }
-    echo '</ul>', PHP_EOL;
-    echo '</p>', PHP_EOL;
+
 }
 
 ?>
