@@ -9,28 +9,27 @@ Class Documentation for <?php echo $className ?>
 
 </h1>
 <?php
+$privateSection = $publicSection = '';
 foreach ($definitions->sectiondef as $section) {
     if($section['kind'] == 'private-static-attrib'){
-        echo '<h2>Private Members</h2>', PHP_EOL;
+        $privateSection .= '<h2>Private Members</h2>' . PHP_EOL;
+        $privateSection .= getSectionHtml($section);
+
     } else if ($section['kind'] == 'public-static-func') {
-        echo '<h2>Public Members</h2>', PHP_EOL;
+        $publicSection .= '<h2>Public Members</h2>' . PHP_EOL;
+        $publicSection .= getSectionHtml($section);
     }
-
-    foreach ($section->memberdef as $member) {
-        echo '<h3>';
-        echo $member->type, ' ', $member->name;
-        echo '(';
-        foreach ($member->param as $key => $param) {
-            if($key > 0) {
-                echo ', ';
-            }
-            echo $param->type , ' ' , $param->declname;
-        }
-        echo ')';
-        echo '</h3>', PHP_EOL;
-    }
-
 }
+
+
+if(!empty($publicSection)){
+    echo $publicSection;
+}
+
+if(!empty($privateSection)){
+    echo $privateSection;
+}
+
 
 ?>
 </html>
